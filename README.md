@@ -1,6 +1,12 @@
 # FooBar12WeekProject
 
 
+| Contributer | Self Grade | Leader grade | Artifacts
+| ------------- |:-------------:| -----:| ----------:|
+|Andrew Joseph| 17/20 | |  Set up settings page( | 
+
+
+
 | Contributer | Github link | Journal link |
 | ------------- |:-------------:| -----:|
 | Andrew Joseph | [AndrewPhilipJoseph](https://github.com/AndrewPhilipJoseph) | [Andrew, Brendan, David](https://docs.google.com/document/d/1ZEMbY_SJAptVBFEJHVeJKblV_N-WxgPG38xeOHocP9Q/edit) |
