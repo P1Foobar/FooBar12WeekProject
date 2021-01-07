@@ -5,7 +5,7 @@
 | ------------- |-------------| -----| ----------|
 |Andrew Joseph| 17/20 | | Set up settings [page](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/Settings/SettingsView.java), <br> added [Human](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/Human.java) and [Matter](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/Matter.java) classes <br>- Matter is a parent class for walls and Human; anything that will have a reaction upon collision. <br> Tried to set up collision, still needs work. Main issue is understanding how to react upon collision <br> To Do: <br> -- Get UI set up for people "spawning" and moving. <br> -- Finish setting up collision. | 
 | David Ramsayer |sdsd| sdsd|sdsdsds |
-| Brendan Trinh || | |
+| Brendan Trinh |test| | test|
 
 
 
