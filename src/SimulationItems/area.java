@@ -1,4 +1,5 @@
 package SimulationItems;
 
-public class area {
+public class Area {
+    int 2
 }

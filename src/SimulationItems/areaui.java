@@ -1,4 +1,5 @@
 package SimulationItems;
 
-public class areaui {
+public class AreaUI {
+    double 2
 }
