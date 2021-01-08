@@ -1,9 +1,8 @@
 package Simulation;
 
+import SimView.SimulationView;
 import SimulationItems.Human;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Timer;
 
@@ -12,7 +11,7 @@ public class SimulationControl {
 
 
 SimulationView MainSim;
-ArrayList<Human> People = new ArrayList<>();
+public ArrayList<Human> People = new ArrayList<>();
 
 
 int population;
@@ -33,9 +32,7 @@ public SimulationControl() {
         this.population = population;
         this.immunePeople = immunePeople;
         this.infectionRate = infectionRate;
-        createPeople();
-        MainSim.drawPeople(People);
-        MainSim.repaint();
+
 
 
 
@@ -49,7 +46,9 @@ public SimulationControl() {
     }
 
     public void start() {
-
+        createPeople();
+        MainSim.Peopleinit(this);
+        MainSim.repaint();
 
     }
 

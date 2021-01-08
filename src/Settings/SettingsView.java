@@ -59,7 +59,7 @@ public SettingsView() {
         public void mousePressed(MouseEvent e) {
             SimulationControl SimCon =  new SimulationControl();
              SimCon.setValues(population.getValue(), infectionRate.getValue(), immunePeople.getValue());
-
+            SimCon.start();
 
         }
     });

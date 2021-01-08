@@ -13,15 +13,10 @@ public class Human extends Matter {
 
     int x;
     int y;
-
-
     double vx;
     double vy;
 
     public enum InfectionState{none, infected, survived, immune, dead}
-
-
-
 
 
 public Human(SimulationControl Control) {

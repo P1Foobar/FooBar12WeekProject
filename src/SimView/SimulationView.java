@@ -1,13 +1,16 @@
-package Simulation;
+package SimView;
 
+import Simulation.SimulationControl;
 import SimulationItems.Human;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.Timer;
 
-
-public class SimulationView extends JPanel {
+public class SimulationView extends JPanel implements ActionListener {
 
     ArrayList<Human> People = new ArrayList<>();
 
@@ -22,16 +25,30 @@ public SimulationView(SimulationControl Control) {
     frame.setVisible(true);
 
 
-
-
-
 }
 
-public void drawPeople(ArrayList<Human> People) {
 
-    this.People = People;
-
+public void Peopleinit(SimulationControl Control) {
+    People = Control.People;
+    javax.swing.Timer gameTimer = new javax.swing.Timer(10, this);
 }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+
+        for (Human person : this.People) {
+            person.updatePosition();
+           /* if (person.collide() == true) {
+
+            }*/
+
+        }
+        repaint();
+    }
+
+
+
 
 
     @Override
@@ -39,8 +56,6 @@ public void drawPeople(ArrayList<Human> People) {
         super.paintComponents(g);
 
         Graphics2D gui = (Graphics2D) g;
-
-
 
        for (Human person : this.People) {
            gui.setColor(Color.black);
