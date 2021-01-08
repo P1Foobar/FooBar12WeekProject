@@ -1,6 +1,6 @@
 package SimulationItems;
 
-import java.awt.*;
+
 import java.lang.reflect.InvocationTargetException;
 import java.util.Enumeration;
 import java.util.Vector;
