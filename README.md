@@ -3,7 +3,7 @@
 | ------------- | ----------|
 | Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](), [SimulationView](), and the draw method in [person]()|
 | David Ramsayer | ----------|
-| Brendan Trinh | This week I basically was working on the timer|
+| Brendan Trinh | This week I basically worked on a GUI code for a timer that added a new point that keeps a track of the number of infected people. |
 
 | Contributer | Self Grade | Leader grade | Artifacts |
 | ------------- |-------------| -----| ----------|
