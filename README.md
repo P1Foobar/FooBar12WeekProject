@@ -1,8 +1,11 @@
 # FooBar12WeekProject
 Cards/[Ticket](https://github.com/P1Foobar/FooBar12WeekProject/projects/1) Focus
+
+UI [Ticket](https://github.com/P1Foobar/FooBar12WeekProject/issues/1) worked on by Andrew Joseph
+
 | Contributer | Artifacts |
 | ------------- | ----------|
-| Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](), [SimulationView](), and the draw method in [person]()|
+| Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](), [SimulationView](), and the draw method in [person]() <br> <br> Running the code: Currently the GUI is not fully functional, so the code itself for the painting will have to be examined. The majority of which is in Panel and SimulationView <br> <br> Ticket Items: [UI Ticket](https://github.com/P1Foobar/FooBar12WeekProject/issues/1)|
 | David Ramsayer | I worked on the basis of the [objects](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/SimObject.java) we will be using in the simulation, as well as the GUI for [choosing](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/SimObjectChooser.java) those objects. Eventually, these objects will become different types of people in the simulation. It was interesting to work with JComboBox.|
 | Brendan Trinh | This week I basically worked on a GUI code for a timer that added a new point that keeps a track of the number of infected people. |
 
