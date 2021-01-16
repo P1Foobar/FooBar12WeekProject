@@ -1,5 +1,5 @@
 package SimulationItems;
-/*
+
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Enumeration;
@@ -139,4 +139,3 @@ public class Area {
         }
     }
 }
-*/
