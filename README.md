@@ -1,5 +1,5 @@
 # FooBar12WeekProject
-Cards/Ticket Focus
+Cards/[Ticket](https://github.com/P1Foobar/FooBar12WeekProject/projects/1) Focus
 | Contributer | Artifacts |
 | ------------- | ----------|
 | Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](), [SimulationView](), and the draw method in [person]()|
