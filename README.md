@@ -1,5 +1,5 @@
 # FooBar12WeekProject
-[Cards/Ticket](https://github.com/P1Foobar/FooBar12WeekProject/projects/1) Focus
+[Cards/Ticket](https://github.com/P1Foobar/FooBar12WeekProject/projects/1) Focus    <---*View Cards here*
 
 | Contributer | Artifacts |
 | ------------- | ----------|
