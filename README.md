@@ -3,7 +3,7 @@ Cards/Ticket Focus
 | Contributer | Artifacts |
 | ------------- | ----------|
 | Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](), [SimulationView](), and the draw method in [person]()|
-| David Ramsayer | I worked on the basis of the [objects](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/SimObject.java) we will be using in the simulation, as well as the GUI for [choosing](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/SimObjectChooser.java) those objects. Eventually, these objects will become different types of people in the simulation. It was interesting to learn JComboBox.|
+| David Ramsayer | I worked on the basis of the [objects](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/SimObject.java) we will be using in the simulation, as well as the GUI for [choosing](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/SimObjectChooser.java) those objects. Eventually, these objects will become different types of people in the simulation. It was interesting to work with JComboBox.|
 | Brendan Trinh | This week I basically worked on a GUI code for a timer that added a new point that keeps a track of the number of infected people. |
 
 5-Hour Challenge
