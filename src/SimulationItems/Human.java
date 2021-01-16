@@ -16,6 +16,8 @@ public class Human extends Matter {
     double vx;
     double vy;
 
+    final int widthAndHeight = 10;
+
     public enum InfectionState{none, infected, survived, immune, dead}
 
 
@@ -98,4 +100,10 @@ public Human(SimulationControl Control) {
     public int getY() {
         return y;
     }
+
+    public void draw(Graphics g) {
+        g.fillRect(x, y, widthAndHeight, widthAndHeight);
+    }
+
+
 }

@@ -1,5 +1,9 @@
 # FooBar12WeekProject
-
+| Contributer | Artifacts |
+| ------------- | ----------|
+| Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](), [SimulationView](), and the draw method in [person]()|
+| David Ramsayer | ----------|
+| Brendan Trinh | ----------|
 
 | Contributer | Self Grade | Leader grade | Artifacts |
 | ------------- |-------------| -----| ----------|

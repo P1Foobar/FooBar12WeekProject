@@ -7,64 +7,78 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import java.util.Timer;
 
-public class SimulationView extends JPanel implements ActionListener {
+public class SimulationView implements ActionListener {
 
     ArrayList<Human> People = new ArrayList<>();
+    int population;
+    int currentTime = 0;
 
 
+    private Panel viewPanel;
+    javax.swing.Timer timer;
 public SimulationView(SimulationControl Control) {
 
+    People = Control.People;
+    population = Control.population;
+
     JFrame frame = new JFrame();
-    frame.getContentPane().setBackground(Color.lightGray);
-    frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-    frame.getContentPane().setLayout(null);
-    frame.setBounds(0, 0, 800, 800);
+    //frame.getContentPane().setBackground(Color.lightGray);
+    //frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+    //frame.getContentPane().setLayout(null);
+    //frame.setBounds(0, 0, 800, 800);
+
+    frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+    frame.addWindowListener(new WindowAdapter() {
+        @Override
+        public void windowClosing(WindowEvent event) {
+            frame.dispose();
+            System.exit(0);
+        }
+    });
+
+    viewPanel = new Panel(People, population);
+
+    frame.add(viewPanel);
+
+
+    frame.pack();
+    frame.setLocationByPlatform(true);
     frame.setVisible(true);
 
+    timer = new javax.swing.Timer(5, this::actionPerformed);
+    timer.start();
 
 }
 
 
-public void Peopleinit(SimulationControl Control) {
-    People = Control.People;
-    javax.swing.Timer gameTimer = new javax.swing.Timer(10, this);
-}
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
 
-
         for (Human person : this.People) {
             person.updatePosition();
+            viewPanel.repaint();
            /* if (person.collide() == true) {
 
             }*/
 
         }
-        repaint();
-    }
 
-
-
-
-
-    @Override
-    protected void paintComponent(Graphics g) {
-        super.paintComponents(g);
-
-        Graphics2D gui = (Graphics2D) g;
-
-       for (Human person : this.People) {
-           gui.setColor(Color.black);
-           gui.fillRect(person.getX()+400, person.getY()+400, 10, 10);
-
-           System.out.println(String.valueOf(person.getX()));
+        currentTime = currentTime + 5;
+        if (currentTime > 100000) {
+            timer.stop();
         }
 
-        //gui.fillRect(50, 50, 10, 10);
-
     }
+
+
+
+
+
 }

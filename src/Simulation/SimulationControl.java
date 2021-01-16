@@ -14,7 +14,7 @@ SimulationView MainSim;
 public ArrayList<Human> People = new ArrayList<>();
 
 
-int population;
+public int population;
 int immunePeople;
 double infectionRate;
 
@@ -23,7 +23,7 @@ double infectionRate;
 public SimulationControl() {
 
     People.clear();
-    MainSim = new SimulationView(this);
+   // MainSim = new SimulationView(this);
 
 
 }
@@ -47,8 +47,8 @@ public SimulationControl() {
 
     public void start() {
         createPeople();
-        MainSim.Peopleinit(this);
-        MainSim.repaint();
+        MainSim = new SimulationView(this);
+        //MainSim.repaint();
 
     }
 
