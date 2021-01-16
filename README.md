@@ -1,10 +1,12 @@
 # FooBar12WeekProject
+Cards/Ticket Focus
 | Contributer | Artifacts |
 | ------------- | ----------|
 | Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](), [SimulationView](), and the draw method in [person]()|
 | David Ramsayer | ----------|
 | Brendan Trinh | This week I basically worked on a GUI code for a timer that added a new point that keeps a track of the number of infected people. |
 
+5-Hour Challenge
 | Contributer | Self Grade | Leader grade | Artifacts |
 | ------------- |-------------| -----| ----------|
 |Andrew Joseph| 17/20 | 5/5| Set up settings [page](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/Settings/SettingsView.java), <br> added [Human](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/Human.java) and [Matter](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/Matter.java) classes <br>- Matter is a parent class for walls and Human; anything that will have a reaction upon collision. <br> Tried to set up collision, still needs work. Main issue is understanding how to react upon collision <br> To Do: <br> -- Get UI set up for people "spawning" and moving. <br> -- Finish setting up collision. | 
