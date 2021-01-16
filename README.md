@@ -1,7 +1,7 @@
 # FooBar12WeekProject
 | Contributer | Artifacts |
 | ------------- | ----------|
-| Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](), [SimulationView](), and the draw method in [person]()|
+| Andrew Joseph | Mostly figured out how to do GUI code for simulation view, see [Panel](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimView/Panel.java), [SimulationView](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimView/SimulationView.java), and the draw method in [person](https://github.com/P1Foobar/FooBar12WeekProject/blob/main/src/SimulationItems/Human.java)|
 | David Ramsayer | ----------|
 | Brendan Trinh | ----------|
 
