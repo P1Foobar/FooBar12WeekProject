@@ -1,7 +1,9 @@
 # FooBar12WeekProject
-Cards/[Ticket](https://github.com/P1Foobar/FooBar12WeekProject/projects/1) Focus
+[Cards/Ticket](https://github.com/P1Foobar/FooBar12WeekProject/projects/1) Focus
 
-UI [Ticket](https://github.com/P1Foobar/FooBar12WeekProject/issues/1) worked on by Andrew Joseph
+<div class=*UI [Ticket](https://github.com/P1Foobar/FooBar12WeekProject/issues/1) worked on by Andrew Joseph>
+  .text-blue on white
+  </div>
 
 | Contributer | Artifacts |
 | ------------- | ----------|
