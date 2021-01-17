@@ -5,6 +5,9 @@ import java.util.Enumeration;
 import java.util.Vector;
 import java.awt.Color;
 
+/* establishes base objects and properties
+that we can implement to create different kinds of people*/
+
 abstract public class SimObject implements Runnable {
 
     protected Area grid;
@@ -83,6 +86,8 @@ abstract public class SimObject implements Runnable {
     {
         return colp;
     }
+    /* objects have interaction with neighboring grid squares
+    * allows for the virus to spread*/
 
     synchronized public Enumeration getNeighbors () {
 

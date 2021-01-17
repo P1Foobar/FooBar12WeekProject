@@ -3,6 +3,9 @@ package SimulationItems;
 import javax.swing.JPanel;
 import javax.swing.JComboBox;
 
+/* Pop up menu that will be used for selecting
+ different objects or people */
+
 public class SimObjectChooser extends JPanel {
 
     private Class selectedClass;
@@ -60,7 +63,7 @@ public class SimObjectChooser extends JPanel {
             Class newClass = Class.forName (classname);
             selectedClass = newClass;
         } catch (java.lang.ClassNotFoundException ex) {
-            System.err.println ("BUG: Selected class is not available: " + classname);
+            System.err.println ("Error: Class not found. Please select a different class: " + classname);
             ex.printStackTrace();
         }
     }
