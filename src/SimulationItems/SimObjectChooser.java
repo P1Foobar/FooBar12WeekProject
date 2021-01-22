@@ -4,7 +4,7 @@ import javax.swing.JPanel;
 import javax.swing.JComboBox;
 
 /* Pop up menu that will be used for selecting
- different objects or people */
+ different objects, people, or maybe virus itself */
 
 public class SimObjectChooser extends JPanel {
 
