@@ -12,7 +12,7 @@ import javax.swing.Timer;
 	CFrame extends JPanel so that we can override the paint method. The paint method is necessary to use the simple
 	drawing tools of the library!
 	CFrame implements an ActionListener which adds the method actionPerformed. This method is invoked by the
-	animation timer every 16ms.
+	animation timer every 16ms.  TEST CODE
 */
 public class CFrame extends JPanel implements ActionListener{
 
