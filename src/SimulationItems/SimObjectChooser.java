@@ -28,7 +28,7 @@ public class SimObjectChooser extends JPanel {
 
         add (combolist);
     }
-
+    /*adding classes to select in the pop up list*/
     public void addClass (String className) throws ClassNotFoundException
     {
         Class newClass = Class.forName (className);

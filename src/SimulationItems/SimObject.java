@@ -6,7 +6,7 @@ import java.util.Vector;
 import java.awt.Color;
 
 /* establishes base objects and properties
-that we can implement to create different kinds of people*/
+that we can extend to create different kinds of people*/
 
 abstract public class SimObject implements Runnable {
 
@@ -45,7 +45,7 @@ abstract public class SimObject implements Runnable {
             }
         }
     }
-
+    /*Basic properties for the objects to respond to user pause/play */
     public void resumeObject()
     {
         isPaused = false;
