@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.Color;
 
+/*basically drawing and painting the area when ran*/
 public class AreaUI extends JPanel implements Runnable {
     private Area grid;
     private SimObjectChooser simobjchooser;

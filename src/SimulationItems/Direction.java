@@ -1,6 +1,8 @@
 package SimulationItems;
 import java.util.Random;
 
+/*establishes directions for the objects/virus to follow*/
+
 public class Direction {
 
     private int northsouth;
@@ -27,7 +29,7 @@ public class Direction {
     {
         String res;
 
-        switch (northsouth)
+        switch (northsouth) //reversing direction
         {
             case 1:  res = "north"; break;
             case -1: res = "south"; break;
@@ -55,7 +57,7 @@ public class Direction {
     static public Direction randomDirection () {
         int dir = random.nextInt (8);
 
-        switch (dir) {
+        switch (dir) {  //Virus will be using random directional change
             case 0: return NORTH;
             case 1: return NORTHEAST;
             case 2: return EAST;
