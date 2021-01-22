@@ -1,5 +1,4 @@
 # FooBar12WeekProject
-Mid Term Review
 
 [Cards/Ticket Focus](https://github.com/P1Foobar/FooBar12WeekProject/projects/1)     <---*View Cards here*
 
